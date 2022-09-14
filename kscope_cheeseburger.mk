@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/cheeseburger/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/kscope/config/common_full_phone.mk)
+$(call inherit-product, vendor/kscope/config/common.mk)
 
 PRODUCT_NAME := kscope_cheeseburger
 PRODUCT_DEVICE := cheeseburger
